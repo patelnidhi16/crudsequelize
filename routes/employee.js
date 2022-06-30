@@ -12,10 +12,13 @@ const store = multer({
     },
   }),
 }).single("image");
-
 router.get("/index", async (req, res) => {
  var employees= await employeeController.index(req, res);
  res.json(employees);
+});
+router.get("/deleteall", async (req, res) => {
+  var employees= await employeeController.deleteall(req, res);
+
 });
 
 router.post("/create",store, async (req, res) => {
@@ -28,6 +31,7 @@ router.delete("/delete/:id", async (req, res) => {
  res.json(employee);
   
 });
+
 router.get("/edit/:id", async (req, res) => {
  var employee= await employeeController.edit(req, res);
  res.json(employee);
