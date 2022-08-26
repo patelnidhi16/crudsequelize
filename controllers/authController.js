@@ -74,7 +74,7 @@ exports.logout = async (req, res) => {
 //   client.del("framework",function (err, reply) {
 //     console.log("Redis Del", reply);
 //   });
-  res.clearCookie()
+  // res.clearCookie()
   // try {
   //   console.log(req.headers);
   //   const token = req.headers.authorization.replace("Bearer ", "");

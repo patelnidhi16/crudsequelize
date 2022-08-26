@@ -1,0 +1,62 @@
+{
+  "login": ["post", "admin/login"],
+  "logout": ["patch", "user/logout"],
+
+  "get_user": ["get", "admin/userList"],
+  "verify_user": ["put", "admin/verifyUser"],
+
+  "get_exersise": ["get", "admin/listing_ex"],
+  "edit_exersise": ["get", "admin/edit_exercise"],
+  "edit_eatwell": ["get", "admin/edit_eatwell"],
+  "get_cms": ["get", "admin/cms"],
+  "add_cms": ["post", "admin/createCms"],
+  "delete_cms": ["delete", "admin/deleteCms"],
+  "update_exersise": ["post", "admin/update_exercise"],
+  "add_exersise": ["post", "admin/create_exercise"],
+  "delete_exersise": ["delete", "admin/delete_exercise"],
+  "delete_eatwell": ["delete", "admin/delete_eatwell"],
+  "get_eatwell": ["get", "admin/listing_eat"],
+  "create_eatwell": ["post", "admin/create_eatwell"],
+  "update_eatwell": ["post", "admin/update_eatwell"],
+  "get_ex_type": ["get", "admin/get_ex_type"],
+  "get_eat_type": ["get", "admin/get_eat_type"],
+  "get_dashboard": ["get", "admin/dashboard"],
+  "get_log_detail": ["get", "admin/logs"],
+  "get_eap": ["get", "admin/listEap"],
+  "upload_file": ["post", "admin/upload_file"],
+  "upload_pdf": ["post", "admin/upload_pdf"],
+  "add_eap": ["post", "admin/createEap"],
+  "get_mindfulness": ["get", "admin/list_mindfulness"],
+  "upload_audio": ["post", "admin/upload_audio"],
+  "add_mindfulness": ["post", "admin/create_mindfulness"],
+  "delete_mindfulness": ["delete", "admin/delete_mindfulness"],
+  "edit_mindfulness": ["get", "admin/edit_mindfulness"],
+  "update_mindfulness": ["post", "admin/update_mindfulness"],
+  "update_eap": ["post", "admin/updateEap"],
+  "get_setting": ["get", "admin/listSetting"],
+  "add_setting": ["post", "admin/createSetting"],
+
+  "get_sub_category": ["get", "admin/subCategory"],
+  "get_employee": ["get", "admin/employees"],
+  "get_manager": ["get", "admin/managers"],
+  "get_interest": ["get", "admin/interest"],
+  "interest_status": ["put", "admin/interestStatus"],
+  "interest_delete": ["delete", "admin/interest"],
+  "add_interest": ["post", "admin/interest"],
+  "update_interest": ["put", "admin/interest"],
+
+  "upload_image": ["post", "user/uploadImage"],
+
+  "get_product": ["get", "admin/allProduct"],
+
+  "get_product_rating": ["get", "admin/rating"],
+
+  "get_exchange": ["get", "admin/exchangeOption"],
+  "add_exchange": ["post", "admin/exchangeOption"],
+  "update_exchange": ["put", "admin/exchangeOption"],
+  "delete_exchange": ["delete", "admin/exchangeOption"],
+
+  "get_productType": ["get", "admin/productType"],
+  "update_productType": ["put", "admin/productType"],
+  "delete_productType": ["delete", "admin/productType"]
+}

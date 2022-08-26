@@ -1,0 +1,45 @@
+.t-action-btn {
+  display: flex;
+  button {
+    margin: 0 3px;
+    padding: 4px 8px;
+    font-size: 14px;
+  }
+}
+
+.badge {
+  font-size: 0.9em !important;
+}
+.del_cat_desc {
+  max-width: 400px !important;
+
+  overflow: auto !important;
+}
+
+.recipe_desc_add_container {
+  border: 1px solid var(--falcon-input-border-color);
+  border-radius: 8px;
+  padding: 12px;
+  position: relative;
+  margin-bottom: 1rem;
+}
+.recipe_desc_add_container_removeBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.add_more_descBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  color: var(--falcon-body-color);
+}
